@@ -34,7 +34,115 @@ a:hover {
     display: none;
 }
 
-@media (max-width: 600px){ /* Mobile */
+/* Desktop */
+@media only screen and (min-width: 1000px){
+    #container {
+        margin: auto;
+        width: 1000px;
+        align-items: center;
+    }
+    /* perfio */
+    #perfio {
+        display: flex;
+    }
+    #perfio-img {
+        width: 50%;
+    }
+    #perfio-bio {
+        width: 50%;
+    }
+    /* destaques */
+    #destaques {
+        display: flex;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) and (max-width: 1000px){
+    /* header */
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0;
+        background: #e7e7e7;
+        z-index: 10000;
+        transition: .6s;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    }
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+    }
+
+    /* main */
+    #perfio-img { /* Perfio */
+        display: flex;
+        background-color: blue; /* DEV */
+        justify-content: center;
+        padding: 1rem 1rem;
+    }
+    #perfio-bio {
+        padding: 1rem 1rem;
+        text-justify: auto;
+    }
+    #perfio-bio h1 {
+        text-align: center;
+    }
+    .card-info { /* Destaques */
+        background-color: blue;        
+    }
+    .card-info h2 {
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+    .card-info p {
+        padding: 1rem 1rem;
+        text-align: justify;
+    }
+    .card-info-img {
+        display: flex;
+        justify-content: center;
+    }
+    #social { /* Rodapé social */
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px){ /* Mobile */
     /* header */
     #menu {
         display: block;
