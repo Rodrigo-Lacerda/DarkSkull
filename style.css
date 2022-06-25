@@ -283,6 +283,8 @@ a:hover {
     .card-info-img {
         display: flex;
         justify-content: center;
+        width: 260px;
+        padding: 1rem;
     }
     #social { /* Rodapé social */
         padding: 1rem 1rem;
@@ -299,7 +301,7 @@ a:hover {
         display: flex;
     }
     #social img {
-        width: 4rem;
+        width: 1rem;
     }
 
     /* footer */
