@@ -41,20 +41,53 @@ a:hover {
         width: 1000px;
         align-items: center;
     }
+    img {
+        width: 90%;
+    }
     /* perfio */
     #perfio {
         display: flex;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
     }
     #perfio-img {
         width: 50%;
     }
     #perfio-bio {
         width: 50%;
+        margin-top: 75px;
     }
     /* destaques */
     #destaques {
         display: flex;
+        margin-bottom: 2rem;
     }
+    #destaques div, h2 {
+        margin-bottom: 20px;
+    }
+
+    /* Social */
+    #social {
+        display: flex;
+        justify-content: center;
+    }
+    #social div {
+        align-items: center;
+        display: flex;
+        padding: 2rem;
+        margin: 0rem 3rem 0rem 3rem;
+    }
+    #social img {
+        width: 4rem;
+    }
+
+    /* footer */
+    footer {
+        background-color: rgba(34, 49, 63);
+        text-align: center;
+        color: whitesmoke;
+    }
+    
 }
 
 /* Tablets */
@@ -119,8 +152,18 @@ a:hover {
     #perfio-bio h1 {
         text-align: center;
     }
-    .card-info { /* Destaques */
+    #perfio-bio p {
+        text-align: center;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    /* Destaques */
+    .card-info { 
         background-color: blue;        
+    }
+    .card-info p{
+        margin-left: 18%;
     }
     .card-info h2 {
         text-align: center;
@@ -129,16 +172,38 @@ a:hover {
     .card-info p {
         padding: 1rem 1rem;
         text-align: justify;
+        width: 60%;
     }
     .card-info-img {
         display: flex;
         justify-content: center;
     }
+
     #social { /* Rodapé social */
         padding: 1rem 1rem;
         text-align: center;
     }
+    /* Social */
+    #social {
+        display: flex;
+        justify-content: center;
+    }
+    #social div {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        margin: 0rem 2rem 0rem 2rem;
+    }
+    #social img {
+        width: 4rem;
+    }
 
+    /* footer */
+    footer {
+        background-color: rgba(34, 49, 63);
+        text-align: center;
+        color: whitesmoke;
+    }
 
 }
 
@@ -224,10 +289,24 @@ a:hover {
         text-align: center;
     }
 
+    /* Social */
+    #social div {
+        justify-content: center;
+        padding: 1rem 1rem;
+    }
+    #social div {
+        align-items: center;
+        display: flex;
+    }
+    #social img {
+        width: 4rem;
+    }
+
     /* footer */
     footer {
         background-color: rgba(34, 49, 63);
         text-align: center;
         color: whitesmoke;
     }
+
 }
