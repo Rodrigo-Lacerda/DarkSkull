@@ -141,7 +141,7 @@ a:hover {
     /* main */
     #perfio-img { /* Perfio */
         display: flex;
-        background-color: blue; /* DEV */
+        /* background-color: blue;  DEV */
         justify-content: center;
         padding: 1rem 1rem;
     }
@@ -160,7 +160,7 @@ a:hover {
 
     /* Destaques */
     .card-info { 
-        background-color: blue;        
+        /* background-color: blue;         */
     }
     .card-info p{
         margin-left: 18%;
@@ -258,7 +258,7 @@ a:hover {
     /* main */
     #perfio-img { /* Perfio */
         display: flex;
-        background-color: blue; /* DEV */
+        /* background-color: blue;  DEV */
         justify-content: center;
         padding: 1rem 1rem;
     }
@@ -270,7 +270,7 @@ a:hover {
         text-align: center;
     }
     .card-info { /* Destaques */
-        background-color: blue;        
+        /* background-color: blue;         */
     }
     .card-info h2 {
         text-align: center;
