@@ -6,82 +6,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>DarkSkull</title>
+    <style>
+        /* #t {
+            display: flex;
+            background-color: aqua;
+            justify-content: space-between;
+        } */
+    </style>
 </head>
 <body>
-    <div id="container">
-        <header id="header">
-            <a href="#">Logo</a>
-            <nav id="nav">
-                <button id="btn-mobile">
-                    <span id="hamburger"></span>
-                </button>
-                <ul id="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-
-        <main>
-            <section id="perfio">
-                <div id="perfio-img"><img src="img/perfil-d.png" alt=""></div>
-                <div id="perfio-bio">
-                    <h1>Kriston Nunes</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga repellat amet repudiandae vitae ab quam, fugiat ducimus magnam, nemo suscipit perspiciatis corporis. Facilis fugiat ratione eius optio mollitia similique delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex error quos sint aliquid blanditiis ipsum modi voluptatem id sunt eaque, quas recusandae? Nam provident asperiores deleniti ex! Minima, tenetur ea?</p>
-                </div>
-            </section>
-
-            <section id="destaques">
-                <div class="card-info">
-                    <h2>Trabalho 1</h2>
-                    <div class="card-info-img">
-                    <picture>
-                        <!-- desktop -->
-                        <source media="(min-width: 1000px)" srcset="img/trabalho-1-m.png" type="image/png">
-                        <!-- mobile -->
-                        <img src="img/trabalho-1-m.png" alt="" srcset="">
-                    </picture>    
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione culpa porro excepturi aut ex saepe quo perspiciatis vitae voluptatum, corrupti numquam ipsam dolores quaerat hic provident odio ab ipsum.</p>
-                </div>
-                <div class="card-info">
-                    <h2>Trabalho 2</h2>
-                    <div class="card-info-img">
-                    <picture>
-                        <source media="(min-width: 1000px)" srcset="img/trabalho-2-m.png" type="image/png">
-                        <img src="img/trabalho-2-m.png" alt="" srcset="">
-                    </picture>    
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe ea voluptatibus voluptas iure, similique veniam, sapiente a itaque enim quae quasi. Ut soluta sed rerum tempora repudiandae qui ab. Earum.</p>
-                </div>
-                <div class="card-info">
-                    <h2>Trabalho 3</h2>
-                    <div class="card-info-img">
-                        <picture>
-                            <source media="(min-width: 1000px)" srcset="img/trabalho-3-m.png" type="image/png">
-                            <img src="img/trabalho-3-m.png" alt="">
-                        </picture>    
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur deserunt veniam laborum ducimus incidunt cumque dolores quibusdam, quod illum odio praesentium reprehenderit eveniet dolorem officia laudantium assumenda debitis, maxime in?</p>
-                </div>
-            </section>
-
-            <div id="social">
-                <div><img src="img/whatsapp.png" alt="">
-                    <p>Whatsapp</p></div>
-                <div><img src="img/facebook.png" alt="">
-                    <p>Facebook</p></div>
-                <div><img src="img/instagram.png" alt="">
-                    <p>Instagram</p></div>
+    <header id="header">
+        <div id="container">
+            <div id="content-menu">
+                <a href="#">Logo</a>
+                <nav id="nav">
+                    <button id="btn-mobile">
+                        <span id="hamburger"></span>
+                    </button>
+                    <ul id="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
             </div>
-        </main>
+        </div>
+    </header>
+        
+    <main id="container">
+        <section id="perfio">
+            <div id="perfio-img"><img src="img/perfio-m.png" alt=""></div>
+            <div id="perfio-bio">
+                <h1>Kriston Nunes</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga repellat amet repudiandae vitae ab quam, fugiat ducimus magnam, nemo suscipit perspiciatis corporis. Facilis fugiat ratione eius optio mollitia similique delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex error quos sint aliquid blanditiis ipsum modi voluptatem id sunt eaque, quas recusandae? Nam provident asperiores deleniti ex! Minima, tenetur ea?</p>
+            </div>
+        </section>
 
-        <footer>
+        <section id="destaques">
+            <div class="card-info">
+                <h2>Trabalho 1</h2>
+                <div class="card-info-img">
+                <picture>
+                    <!-- desktop -->
+                    <source media="(min-width: 1000px)" srcset="img/tabalho-1-t.png">
+
+                    <!-- tablet -->
+                    <source media="(min-width: 600px)" srcset="img/tabalho-1-t.png">
+
+                    <!-- mobile -->
+                    <img src="img/trabalho-1-m.png" alt="">
+                </picture>    
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione culpa porro excepturi aut ex saepe quo perspiciatis vitae voluptatum, corrupti numquam ipsam dolores quaerat hic provident odio ab ipsum.</p>
+            </div>
+            <div class="card-info">
+                <h2>Trabalho 2</h2>
+                <div class="card-info-img">
+                <picture>
+                    <!-- desktop -->
+                    <source media="(min-width: 1000px)" srcset="img/tabalho-2-t.png">
+
+                    <!-- tablet -->
+                    <source media="(min-width: 600px)" srcset="img/tabalho-2-t.png">
+
+                    <!-- mobile -->
+                    <img src="img/trabalho-2-m.png" alt="">
+                </picture>    
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe ea voluptatibus voluptas iure, similique veniam, sapiente a itaque enim quae quasi. Ut soluta sed rerum tempora repudiandae qui ab. Earum.</p>
+            </div>
+            <div class="card-info">
+                <h2>Trabalho 3</h2>
+                <div class="card-info-img">
+                    <picture>
+                    <!-- desktop -->
+                    <source media="(min-width: 1000px)" srcset="img/tabalho-3-t.png">
+
+                    <!-- tablet -->
+                    <source media="(min-width: 600px)" srcset="img/tabalho-3-t.png">
+
+                    <!-- mobile -->
+                    <img src="img/trabalho-3-m.png" alt="">
+                    </picture>    
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur deserunt veniam laborum ducimus incidunt cumque dolores quibusdam, quod illum odio praesentium reprehenderit eveniet dolorem officia laudantium assumenda debitis, maxime in?</p>
+            </div>
+        </section>
+
+        <div id="social">
+            <div><img src="img/whatsapp.png" alt="">
+                <p>Whatsapp</p></div>
+            <div><img src="img/facebook.png" alt="">
+                <p>Facebook</p></div>
+            <div><img src="img/instagram.png" alt="">
+                <p>Instagram</p></div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="container">
             <p>&copy;<small>DarkSkull Todos os direitos reservados</small></p>
-        </footer>
-    </div>
+        </div>
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>

@@ -21,6 +21,12 @@ a:hover {
     display: flex; 
     justify-content: space-between; 
 }
+
+#content-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
 #menu {
     display: flex;
     list-style-type: none;
@@ -93,6 +99,11 @@ a:hover {
 /* Tablets */
 @media only screen and (min-width: 600px) and (max-width: 1000px){
     /* header */
+    #container {
+        margin: auto;
+        width: 90%;
+        align-items: center;
+    }
     #menu {
         display: block;
         position: absolute;
@@ -195,7 +206,7 @@ a:hover {
         margin: 0rem 2rem 0rem 2rem;
     }
     #social img {
-        width: 4rem;
+        width: 3rem;
     }
 
     /* footer */
@@ -209,6 +220,11 @@ a:hover {
 
 @media only screen and (min-width: 300px) and (max-width: 600px){ /* Mobile */
     /* header */
+    #container {
+        margin:auto;
+        width: 100%;
+        align-items: center;
+    }
     #menu {
         display: block;
         position: absolute;
@@ -280,11 +296,12 @@ a:hover {
         padding: 1rem 1rem;
         text-align: justify;
     }
-    .card-info-img {
+    .card-info-img picture {
         display: flex;
-        justify-content: center;
+        margin: auto;
         width: 260px;
         padding: 1rem;
+        
     }
     #social { /* Rodapé social */
         padding: 1rem 1rem;
@@ -301,7 +318,7 @@ a:hover {
         display: flex;
     }
     #social img {
-        width: 1rem;
+        width: 5rem;
     }
 
     /* footer */
